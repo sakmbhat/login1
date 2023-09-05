@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    background-position: center;
+    background: url(https://e0.pxfuel.com/wallpapers/831/869/desktop-wallpaper-dark-tree-sunset-landscape-art.jpg);
+
+}
+form{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40px;
+    border: 1px solid #fff;
+    backdrop-filter: blur(10px);
+}
+h2{
+    font-size: 2em;
+    color:aliceblue;
+    text-align: center;
+
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1en;
+    pointer-events: none;
+    transition: .5s;
+}
+input:valid ~ label,
+input:focus ~ label{
+    top: -5px;
+}
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background:transparent ;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color:#fff;
+}
+.inputbox i{
+    position: absolute;
+    right: 8px;
+    color:#fff;
+    font-size: 1.2em;
+    top: 20px;
+
+}
+.forget{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.forget label input{
+    margin: 3px;
+}
+.forgrt label a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.forgrt label a:hover{
+    
+    text-decoration: underline;
+
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+
+}
+.register{
+   font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+     color:#fff;
+     font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
